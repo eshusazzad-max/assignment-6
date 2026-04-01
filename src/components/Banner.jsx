@@ -11,11 +11,23 @@ const Banner = () => {
         <div>
 
           {/* Badge */}
-          <span className="inline-flex items-center gap-2 bg-purple-100 text-purple-600 text-sm px-4 py-1 rounded-full mb-6">
-            <span className="w-2 h-2 bg-purple-600 rounded-full"></span>
+          <span className="inline-flex items-center gap-3 px-5 py-2 rounded-full 
+        bg-purple-200 text-purple-800 text-sm font-medium mb-6">
+
+            <span className="relative flex items-center justify-center w-6 h-6">
+
+              <span className="absolute w-6 h-6 rounded-full bg-purple-600 opacity-20">
+              </span>
+
+             <span className="absolute w-4 h-4 rounded-full bg-purple-700 opacity-60">
+             </span>
+
+             <span className="w-2.5 h-2.5 bg-purple-900 rounded-full"></span>
+
+            </span>
+
             New: AI-Powered Tools Available
           </span>
-
           {/* Heading */}
           <h1 className="text-5xl md:text-6xl font-extrabold text-gray-800 leading-tight mb-6">
             Supercharge Your <br /> Digital Workflow
@@ -37,9 +49,9 @@ const Banner = () => {
             </button>
 
             {/* Outline Button */}
-             <button className="border border-purple-500 text-purple-600 px-6 py-3 rounded-full flex items-center gap-3 
+             <button className="border border-purple-500 text-purple-600 px-7 py-3 rounded-full flex items-center gap-3 
              transition-all duration-300 transform hover:-translate-y-1 hover:bg-purple-50 hover:shadow-md">
-             <FiPlay className="text-xs" />
+             <FiPlay className="text-sm" />
               Watch Demo
             </button>
 

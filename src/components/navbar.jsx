@@ -1,6 +1,7 @@
 import cartIcon from "../assets/shopping-cart.png";
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
+  
   return (
     <div className="bg-white border-b">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -24,11 +25,11 @@ const Navbar = () => {
 
           {/* Cart */}
           <div className="relative cursor-pointer">
-            <img src={cartIcon} alt="cart" className="w-5 h-5" />
-  
-            <span className="absolute -top-2 -right-2 bg-purple-400 text-black text-[10px] px-1.5 rounded-full">
-            0
-            </span>
+           <img src={cartIcon} alt="cart" className="w-5 h-5" />
+
+           <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full">
+           {cart.length}
+           </span>
           </div>
 
           {/* Login */}
