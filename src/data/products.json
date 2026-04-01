@@ -7,7 +7,8 @@
     "period": "Mo",
     "tag": "Best Seller",
     "tagType": "yellow",
-    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"]
+    "features": ["Unlimited AI generations", "50+ templates", "Grammar checker"],
+    "icon": "writing"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "period": "One-Time",
     "tag": "Popular",
     "tagType": "blue",
-    "features": ["2000+ templates", "Monthly updates", "Commercial license"]
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "design"
   },
   {
     "id": 3,
@@ -27,6 +29,40 @@
     "period": "Mo",
     "tag": "New",
     "tagType": "green",
-    "features": ["10M+ assets", "Commercial use", "No attribution"]
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "camera"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "Mo",
+    "tag": "Popular",
+    "tagType": "blue",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "operation"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "New",
+    "tagType": "green",
+    "features": ["100+ templates", "ATS optimization", "Export PDF"],
+    "icon": "portfolio"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "Mo",
+    "tag": "Best Seller",
+    "tagType": "yellow",
+    "features": ["5000+ assets", "Scheduler", "Analytics"],
+    "icon": "social"
   }
 ]
