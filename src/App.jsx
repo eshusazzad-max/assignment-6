@@ -5,6 +5,8 @@ import Stats from "./components/Stats";
 import Products from "./components/Products";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Steps from "./components/Steps";
+import Pricing from "./components/Pricing";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -21,6 +23,8 @@ function App() {
         view={view}
         setView={setView}
        />
+       <Steps/>
+       <Pricing/>
        <ToastContainer/>
     </>
   );
