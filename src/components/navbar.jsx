@@ -11,7 +11,7 @@ const Navbar = ({ cart }) => {
           DigiTools
         </h1>
 
-        {/* Menu */}
+        
         <div className="hidden md:flex items-center gap-8 text-gray-600 text-sm font-medium">
           <a className="hover:text-purple-600 cursor-pointer">Products</a>
           <a className="hover:text-purple-600 cursor-pointer">Features</a>

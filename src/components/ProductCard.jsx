@@ -41,7 +41,7 @@
       {/* Title */}
       <h2 className="text-lg font-semibold mt-2">{name}</h2>
 
-      {/* Description */}
+      
       <p className="text-sm text-gray-500 mt-2">{description}</p>
 
       {/* Price */}
