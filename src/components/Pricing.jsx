@@ -48,7 +48,7 @@ const Pricing = () => {
                </li>
             </ul>
 
-            <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-indigo-500 text-white py-2 rounded-full cursor-pointer">
+            <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-indigo-500 text-white py-2 rounded-full transition duration-200 hover:-translate-y-1 hover:scale-100 active:scale-95 active:translate-y-0 cursor-pointer">
               Get Started Free
             </button>
           </div>
@@ -100,7 +100,7 @@ const Pricing = () => {
 
             </ul>
 
-            <button className="mt-6 w-full bg-white text-purple-600 py-2 rounded-full font-medium cursor-pointer">
+            <button className="mt-6 w-full bg-white text-purple-600 py-2 rounded-full font-medium transition duration-200 hover:-translate-y-1 hover:scale-100 active:scale-95 active:translate-y-0 cursor-pointer">
               Start Pro Trial
             </button>
           </div>
@@ -144,9 +144,9 @@ const Pricing = () => {
               
             </ul>
 
-            <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-indigo-500 text-white py-2 rounded-full cursor-pointer">
-              Contact Sales
-            </button>
+           <button className="mt-6 w-full bg-gradient-to-r from-purple-600 to-indigo-500 text-white py-2 rounded-full transition duration-200 hover:-translate-y-1 hover:scale-100 active:scale-95 active:translate-y-0 cursor-pointer">
+             Contact Sales
+           </button>
           </div>
 
         </div>
